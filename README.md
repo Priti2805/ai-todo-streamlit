@@ -6,7 +6,7 @@ An intelligent to-do list manager built with Streamlit that allows users to:
 - 🌍 Translate tasks into different languages using AI-powered translation
 
 ## 💻 Live App
-👉 [Try it here]([https://ai-todo-app.streamlit.app/](https://ai-todo-app-3rbcm8vxtym4gzkrw5phl7.streamlit.app/)) 
+👉 [https://ai-todo-app-3rbcm8vxtym4gzkrw5phl7.streamlit.app/]
 
 ## 🧠 Features
 - Interactive UI with colorful layout
