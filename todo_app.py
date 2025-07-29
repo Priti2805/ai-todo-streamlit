@@ -13,21 +13,47 @@ import requests
 # Set page configuration
 st.set_page_config(page_title="AI Todo App", layout="centered")
 
-# ----- Custom Styling -----
+# # ----- Custom Styling -----
+# st.markdown("""
+#     <style>
+#     body {
+#         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+#     }
+#     .main {
+#         background: transparent !important;
+#     }
+#     .block-container {
+#         background: rgba(255, 255, 255, 0.9);
+#         padding: 2rem 2rem;
+#         border-radius: 20px;
+#         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+#     }
+#     button[kind="primary"] {
+#         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+#         color: white !important;
+#         border: none !important;
+#         border-radius: 10px !important;
+#         padding: 0.5rem 1.5rem !important;
+#     }
+#     </style>
+# """, unsafe_allow_html=True)
 st.markdown("""
     <style>
-    body {
+    /* Override the full background using a gradient */
+    html, body, [data-testid="stAppViewContainer"] {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        background-attachment: fixed;
     }
-    .main {
-        background: transparent !important;
-    }
+
+    /* Make Streamlit blocks semi-transparent white */
     .block-container {
-        background: rgba(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 0.95) !important;
         padding: 2rem 2rem;
         border-radius: 20px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     }
+
+    /* Style buttons */
     button[kind="primary"] {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
         color: white !important;
