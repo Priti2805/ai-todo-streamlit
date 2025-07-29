@@ -146,7 +146,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="AI Todo App", layout="centered")
-st.title("📝 AI Todo App")
+st.title("📝 AI Todo App /n Your intelligent task manager with AI-powered translation")
 
 # Language codes
 lang_map = {
