@@ -11,7 +11,7 @@ Created on Tue Jul 29 12:25:15 2025
 # import requests
 
 # st.set_page_config(page_title="AI Todo App", layout="centered")
-# st.title("📝 AI Todo App with Translation")
+# st.title("📝 AI Todo App")
 
 # # Initialize session state for todos
 # if 'todos' not in st.session_state:
